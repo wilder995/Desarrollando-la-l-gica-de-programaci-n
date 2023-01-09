@@ -9,17 +9,11 @@ Siempre que se desee resolver un problema hay que plantearse qué algoritmo util
 ## Características de un algoritmo
 
 1. **Entrada:** definir lo que necesita el algoritmo.
-
 2. **Salida:** definir lo que produce.
-
 3. **No ambiguo:** explícito, siempre sabe qué comando ejecutar.
-
 4. **Finito:** el algoritmo termina en número finito de pasos.
-
 5. **Correcto:** hace lo que se supone que debe hacer.
-
 6. **Efectividad:** cada instrucción se completa en tiempo finito. Cada instrucción debe ser lo suficientemente básica como para que pueda ser ejecutada por cualquier persona usando papel y lápiz.
-
 7. **General:** debe ser lo suficientemente general como para contemplar todos lo casos de entrada.
 
 <img src="C:\Users\Wilder z'A\Downloads\algoritmos.png" style="zoom: 40%;" />
