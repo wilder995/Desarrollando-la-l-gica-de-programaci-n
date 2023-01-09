@@ -41,8 +41,6 @@ Los algoritmos los ejecutamos a lo largo de nuestras actividades diarias; por ej
 | Carácter | Es aquel que puede tomar por valor un símbolo perteneciente al conjunto de los caracteres que puede representar el ordenador, va delimitado con comilla sencilla. | Caracteres alfanuméricos (‘a’, ‘b’, ‘c’…’z’)<br />Caracteres numéricos (‘1’, ‘2’…’0’)<br />Caracteres especiales (‘+’, ‘*’, ‘-’) |
 |  Cadena  | Es aquel que pueden tomar por valor una secuencia de caracteres. Va delimitado con comilla doble. | El título de un libre, el nombre de una persona, direcciones, etc. |
 
-
-
 ## Tipos de campos
 
 * **Campos variables:** son aquellos que permiten que el contenido almacenado en el espacio de memoria asignado, pueda ser alterado en el transcurso de la ejecución del algoritmo, es decir, en un momento tiene un valor y mas adelante puede tener otro distinto, pero nunca mas de un valor al mismo tiempo.
