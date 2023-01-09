@@ -1,5 +1,7 @@
 # **Desarrollando la lógica de programación**
 
+
+
 ## ¿Qué es un algoritmo?
 
 Es una serie finita de pasos para resolver un problema.
