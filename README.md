@@ -1,7 +1,5 @@
 # **Desarrollando la lógica de programación**
 
-
-
 ## ¿Qué es un algoritmo?
 
 Es una serie finita de pasos para resolver un problema.
@@ -9,7 +7,6 @@ Es una serie finita de pasos para resolver un problema.
 Siempre que se desee resolver un problema hay que plantearse qué algoritmo utilizar. La respuesta a esta cuestión puede depender de numerosos factores, a saber, el tamaño del problema, el modo en que está planteado y el tipo y potencia del equipo disponible para su resolución.
 
 ## Características de un algoritmo
-
 
 1. **Entrada:** definir lo que necesita el algoritmo.
 
@@ -25,9 +22,7 @@ Siempre que se desee resolver un problema hay que plantearse qué algoritmo util
 
 7. **General:** debe ser lo suficientemente general como para contemplar todos lo casos de entrada.
 
-
 <img src="C:\Users\Wilder z'A\Downloads\algoritmos.png" style="zoom: 40%;" />
-
 
 ## Formulación y resolución de problemas
 
