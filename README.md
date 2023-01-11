@@ -1,6 +1,4 @@
-# **Desarrollando la lógica de programación**
-
-
+# Desarrollando la lógica de programación
 
 ## ¿Qué es un algoritmo?
 
@@ -22,7 +20,7 @@ Siempre que se desee resolver un problema hay que plantearse qué algoritmo util
 
 ## Formulación y resolución de problemas
 
-Los algoritmos son los procedimientos que se construyen para la resolución de cualquier problema. De este modo, cuando se refiere a la construcción de un programa, nos estamos refiriendo a la construcción de un algoritmo.
+Los algoritmos son los procedimientos que se construyen para la resolución de cualquier problema. De este modo, cuando se refiere al desarrollo de un programa, nos estamos refiriendo a la construcción de un algoritmo.
 
 Los algoritmos los ejecutamos a lo largo de nuestras actividades diarias; por ejemplo, cuando hacemos una llamada telefónica, tenemos en cuenta un conjunto de instrucciones mínimas y el orden en el cual debemos ejecutarlas para conseguir comunicarnos con alguien en particular; o cuando consultamos un diccionario, cuando se prepara un menú, entre otros.
 
@@ -79,10 +77,15 @@ Los algoritmos los ejecutamos a lo largo de nuestras actividades diarias; por ej
 
 |  Operador  | Prioridad |                Significado                 |
 | :--------: | :-------: | :----------------------------------------: |
+| (), [], {} |     Primer nivel de ejecución      | Paréntesis, corchetes y llaves                 |
 |  **, ó, ^  |   Mayor   |                Potenciación                |
 | * , /, MOD |   Media   | Multiplicación, división, residuo (módulo) |
 |   + , –    |   Menor   |                Suma, resta                 |
 |     =      |           |                 Asignación                 |
+
+**¿Qué es la jerarquía de operaciones y cuál es su orden?**
+
+En otras palabras, en cualquier problema de matemáticas debes empezar resolviendo los paréntesis, luego los exponentes; luego las multiplicaciones y divisiones y luego las sumas y restas.  Cuando  las  operaciones  son del mismo nivel, se resuelven de izquierda a derecha.
 
 ### Ejemplos:
 
@@ -114,6 +117,8 @@ Los algoritmos los ejecutamos a lo largo de nuestras actividades diarias; por ej
 ```
 
 ## Operadores relacionales
+
+Los operadores relacionales son símbolos que se usan para comparar dos valores. Si el resultado de la comparación es correcto la expresión considerada es verdadera, en caso contrario es falsa.
 
 | Operador |    Significado    |
 | :------: | :---------------: |
