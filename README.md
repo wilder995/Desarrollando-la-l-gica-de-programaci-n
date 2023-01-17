@@ -128,9 +128,7 @@ Los operadores relacionales son símbolos que se usan para comparar dos valores.
 |    >=    | Mayor o igual que |
 |    <=    | Menor o igual que |
 
-# **Estructura secuencial**
-
-
+# Estructura secuencial
 
 La **estructura secuencial** es aquella en la que una acción (instrucción) sigue a otra en secuencia. Las tareas se suceden de tal modo que la salida de una es la entrada de la siguiente y así sucesivamente hasta el fin del proceso.
 
@@ -212,208 +210,209 @@ La **estructura secuencial** es aquella en la que una acción (instrucción) sig
 
 1. Hacer un algoritmo que lea dos números, calcule e imprima la suma, la resta, la multiplicación y la división.
 
-```
-Inicio
-	Real A, B, suma, resta, multiplicacion, division
+	  ```
+	Inicio
+		Real A, B, suma, resta, multiplicacion, division
 
-	Imprima "Ingrese el primer número."
-	Lea A
-	Imprima "Ingrese el segundo número."
-	Lea B
-   
-	suma = A + B
-	resta = A - B
-	multiplicacion = A * B
-	division = A / B
-   
-	Imprima "La suma de los 2 números es: ", suma
-	Imprima "La resta de los 2 números es: ", resta
-	Imprima "La multiplicación de los 2 números es: ", multiplicacion
-	Imprima "La división de los 2 números es: ", division
-Fin
- ```
-
-### Prueba de escritorio:
-
-   
-   |  A   |  B   | suma | resta | multiplicacion | division |
-   | :--: | :--: | :--: | :---: | :------------: | :------: |
-   |  20  |  7   |  27  |  13   |      140       |   2.85   |
-   | 2.5  | 2.5  |  5   |   0   |      6.25      |    1     |
+		Imprima "Ingrese el primer número."
+		Lea A
+		Imprima "Ingrese el segundo número."
+		Lea B
+	   
+		suma = A + B
+		resta = A - B
+		multiplicacion = A * B
+		division = A / B
+	   
+		Imprima "La suma de los 2 números es: ", suma
+		Imprima "La resta de los 2 números es: ", resta
+		Imprima "La multiplicación de los 2 números es: ", multiplicacion
+		Imprima "La división de los 2 números es: ", division
+	Fin
+	 ```
+	 
+	### Prueba de escritorio:
+	   
+	|  A   |  B   | suma | resta | multiplicacion | division |
+	| :--: | :--: | :--: | :---: | :------------: | :------: |
+	|  20  |  7   |  27  |  13   |      140       |   2.85   |
+	| 2.5  | 2.5  |  5   |   0   |      6.25      |    1     |
    
 2. Hacer un algoritmo que lea 4 notas e imprima su promedio.
 
-```
-Inicio
-	Real N1, N2, N3, N4, promedio
-       
-	Imprima "Ingrese la primera nota."
-	Lea N1
-	Imprima "Ingrese la segunda nota."
-	Lea N2
-	Imprima "Ingrese la tercer nota."
-	Lea N3
-	Imprima "Ingrese la cuarta nota."
-	Lea N4
-       
-	promedio = (N1 + N2 + N3 + N4) / 4
-       
-	Imprima "El promedio de las 4 notas es: ", promedio
-Fin
-```
+	  ```
+	Inicio
+		Real N1, N2, N3, N4, promedio
+	       
+		Imprima "Ingrese la primera nota."
+		Lea N1
+		Imprima "Ingrese la segunda nota."
+		Lea N2
+		Imprima "Ingrese la tercer nota."
+		Lea N3
+		Imprima "Ingrese la cuarta nota."
+		Lea N4
+	       
+		promedio = (N1 + N2 + N3 + N4) / 4
+	       
+		Imprima "El promedio de las 4 notas es: ", promedio
+	Fin
+	 ```
 
-   ### Prueba de escritorio:   
-   |  N1  |  N2  |  N3  |  N4  | promedio |
-| :--: | :--: | :--: | :--: | :------: |
-   | 4.7  | 4.1  | 3.5  | 2.3  |   3.65   |
-   | 3.9  | 2.5  | 4.1  | 3.3  |   3.45   |
+	 ### Prueba de escritorio:
+	 
+	|  N1  |  N2  |  N3  |  N4  | promedio |
+	| :--: | :--: | :--: | :--: | :------: |
+	| 4.7  | 4.1  | 3.5  | 2.3  |   3.65   |
+	| 3.9  | 2.5  | 4.1  | 3.3  |   3.45   |
    
 3. Hacer un algoritmo que calcule e imprima:
 
    * El área de un triángulo.
-
    * El perímetro de un triángulo.
 
-```
-   Inicio
-       Real base, altura, lado1, lado2, lado3, area, perimetro
-       
-       Imprima "Ingrese la medida de la base del triángulo."
-       Lea base
-       Imprima "Ingrese la medida de la altura del triángulo."
-       Lea altura
-       
-       area = (base * altura) / 2
-       
-       Imprima "Ingrese la medida del primer lado del triángulo."
-       Lea lado1
-       Imprima "Ingrese la medida del segundo lado del triángulo."
-       Lea lado2
-       Imprima "Ingrese la medida del tercer lado del triángulo."
-       Lea lado3
-       
-       perimetro = lado1 + lado2 + lado3
-       
-       Imprima "El área del triángulo es: ", area
-       Imprima "El perimetro del triángulo es: ", perimetro
-   Fin
-```
-
-| base | altura | lado1 | lado2 | lado3 | area | perimetro |
-| :--: | :----: | :---: | :---: | :---: | :--: | :-------: |
-|  7   |   12   |  14   |  26   |   9   |  42  |    49     |
-|  14  |   2    |   4   |   7   |   5   |  14  |    16     |
+	```
+	Inicio
+		Real base, altura, lado1, lado2, lado3, area, perimetro
+	       
+		Imprima "Ingrese la medida de la base del triángulo."
+		Lea base
+		Imprima "Ingrese la medida de la altura del triángulo."
+		Lea altura
+	       
+		area = (base * altura) / 2
+	       
+		Imprima "Ingrese la medida del primer lado del triángulo."
+		Lea lado1
+		Imprima "Ingrese la medida del segundo lado del triángulo."
+		Lea lado2
+		Imprima "Ingrese la medida del tercer lado del triángulo."
+		Lea lado3
+	       
+		perimetro = lado1 + lado2 + lado3
+	       
+		Imprima "El área del triángulo es: ", area
+		Imprima "El perimetro del triángulo es: ", perimetro
+	Fin
+	 ```
+	
+	### Prueba de escritorio:
+	
+	| base | altura | lado1 | lado2 | lado3 | area | perimetro |
+	| :--: | :----: | :---: | :---: | :---: | :--: | :-------: |
+	|  7   |   12   |  14   |  26   |   9   |  42  |    49     |
+	|  14  |   2    |   4   |   7   |   5   |  14  |    16     |
 
 4. En un almacén venden camisas a $35.000 cada una. Hacer un algoritmo que lea la cantidad de camisas que una persona va a comprar e imprima:
 
    * Valor inicial de la compra.
-
    * El valor del IVA que corresponde al 19% del valor inicial.
-
    * El valor del descuento que equivale al 25% del valor inicial.
-
    * El total a pagar que equivale al valor inicial, menos el descuento, más el IVA.
-
    
-```
-   Inicio
-       Entero cantidadCamisas
-       Real valorInicial, IVA, descuento, total
-       
-       Imprima "¿Cuántas camisas desea llevar?"
-       Lea cantidadCamisas
-       
-       valorInicial = cantidadCamisas * 35000
-       IVA = valorInicial * 0,19
-       descuento = valorInicial * 0,25
-       total = valorInicial + IVA - descuento
-       
-       Imprima "El valor inicial de la compra es: ", valorInicial
-       Imprima "El valor del IVA es: ", IVA
-       Imprima "El valor del descuento es: ", descuento
-       Imprima "El total a pagar es: ", total
-   Fin
-```
+    ```
+	Inicio
+		Entero cantidadCamisas
+		Real valorInicial, IVA, descuento, total
+	       
+		Imprima "¿Cuántas camisas desea llevar?"
+		Lea cantidadCamisas
+	       
+		valorInicial = cantidadCamisas * 35000
+		IVA = valorInicial * 0,19
+		descuento = valorInicial * 0,25
+		total = valorInicial + IVA - descuento
+	       
+		Imprima "El valor inicial de la compra es: ", valorInicial
+		Imprima "El valor del IVA es: ", IVA
+		Imprima "El valor del descuento es: ", descuento
+		Imprima "El total a pagar es: ", total
+	Fin
+	 ```
 
-| cantidadCamisas | valorInicial |  IVA   | descuento |  total  |
-| :-------------: | :----------: | :----: | :-------: | :-----: |
-|        4        |   140.000    | 26.600 |  35.000   | 131.600 |
+	### Prueba de escritorio:
+	
+	| cantidadCamisas | valorInicial |  IVA   | descuento |  total  |
+	| :-------------: | :----------: | :----: | :-------: | :-----: |
+	|        4        |   140.000    | 26.600 |  35.000   | 131.600 |
 
 5. Hacer un algoritmo que lea el valor por hora y el número de horas trabajadas por un empleado. Calcular e imprimir:
 
    * Salario bruto
-
    * EPS
-
    * Pensión
-
    * Salario neto
+   
+	```
+	Inicio
+		Real valorHora, horasTrabajadas, salarioBruto, EPS, pension, salarioNeto
+	   	
+	   	Imprima "Ingrese el valor de la hora."
+	   	Lea valorHora
+	   	Imprima "Ingrese el número de horas trabajadas por el empleado."
+	   	Lea horasTrabajadas
+	   	
+	   	salarioBruto = horasTrabajadas * valorHora
+	   	EPS = salarioBruto * 0,04
+	   	pension = salarioBruto * 0,04
+	   	salarioNeto = salarioBruto – EPS – pension
+	   	
+	   	Imprima "El valor del salario bruto es: ", salarioBruto
+	   	Imprima "El valor del aporte para la EPS es: ", EPS
+	   	Imprima "El valor del aporte para la pensión es: ", pension
+	   	Imprima "El valor del salario neto del empleado es: ", salarioNeto
+	Fin
+	```
+	### Prueba de escritorio:
 
-```
-   Inicio
-   	Real valorHora, horasTrabajadas, salarioBruto, EPS, pension, salarioNeto
-   	
-   	Imprima "Ingrese el valor de la hora."
-   	Lea valorHora
-   	Imprima "Ingrese el número de horas trabajadas por el empleado."
-   	Lea horasTrabajadas
-   	
-   	salarioBruto = horasTrabajadas * valorHora
-   	EPS = salarioBruto * 0,04
-   	pension = salarioBruto * 0,04
-   	salarioNeto = salarioBruto – EPS – pension
-   	
-   	Imprima "El valor del salario bruto es: ", salarioBruto
-   	Imprima "El valor del aporte para la EPS es: ", EPS
-   	Imprima "El valor del aporte para la pensión es: ", pension
-   	Imprima "El valor del salario neto del empleado es: ", salarioNeto
-   Fin
-```
-
-| valorHora | horasTrabajadas | salarioBruto |  Eps  | pension | salarioNeto |
-| :-------: | :-------------: | :----------: | :---: | :-----: | :---------: |
-|   2.600   |       78        |   202.800    | 8.112 |  8.112  |   186.576   |
+	| valorHora | horasTrabajadas | salarioBruto |  Eps  | pension | salarioNeto |
+	| :-------: | :-------------: | :----------: | :---: | :-----: | :---------: |
+	|   2.600   |       78        |   202.800    | 8.112 |  8.112  |   186.576   |
 
 6. A la mamá de Juan le preguntan su edad y contesta: tengo 3 hijos, pregúntale a Juan su edad; Alberto tiene 2/3 de la edad de Juan, Ana tiene 4/3 de la edad de Juan y mi edad es la suma de las tres. Hacer un algoritmo que calcule la edad de los cuatro.
 
-   ```
-Inicio
-       Entero juan, alberto, ana, mama
-       
-       Imprima "Ingrese la edad de Juan."
-       Lea juan
-       
-       alberto = (juan * 2) /3
-       ana = (juan * 4) / 3
-       mama = juan + alberto + ana
-       
-       Imprima "La edad de Juan es: ", juan
-       Imprima "La edad de Alberto es: ", alberto
-       Imprima "La edad de Ana es: ", ana
-       Imprima "La edad de la madre es: ", mama
-   Fin
-   ```
-   
-   | juan | alberto | ana  | mama |
-| :--: | :-----: | :--: | :--: |
-   |  9   |    6    |  12  |  27  |
-   
+	```
+	Inicio
+		Entero juan, alberto, ana, mama
+	       
+		Imprima "Ingrese la edad de Juan."
+		Lea juan
+	       
+		alberto = (juan * 2) /3
+		ana = (juan * 4) / 3
+		mama = juan + alberto + ana
+	       
+		Imprima "La edad de Juan es: ", juan
+		Imprima "La edad de Alberto es: ", alberto
+		Imprima "La edad de Ana es: ", ana
+		Imprima "La edad de la madre es: ", mama
+	Fin
+	```
+	
+	### Prueba de escritorio:
+		
+	| juan | alberto | ana  | mama |
+	| :--: | :-----: | :--: | :--: |
+	|  9   |    6    |  12  |  27  |
+		
 7. Hacer un algoritmo que lea un número e imprima el contrario.
    
 
    ```
-   Inicio
-   	Real numero, contrario
+	Inicio
+		Real numero, contrario
    	
-   	Imprima "Ingrese un número."
-   	Lea numero
+		Imprima "Ingrese un número."
+		Lea numero
    	
-   	contrario = numero * -1
+		contrario = numero * -1
    	
-   	Imprima "El contrario del número ingresado es: ", contrario
+		Imprima "El contrario del número ingresado es: ", contrario
    Fin
    ```
 
+	### Prueba de escritorio:
+	
    | numero | contrario |
    | :----: | :-------: |
    |   7    |    -7     |
@@ -425,29 +424,31 @@ Inicio
    * 20% para la vereda #2.
 
    Hacer un algoritmo que imprima cuánto dinero le corresponde a la cabecera y a las 2 veredas.
-
-   ```
-Inicio
-       Entero cabeceraMunicipal, veredaUno, veredaDos
-       
-       cabeceraMunicipal = 120000000 * 0,5
-       veredaUno = 120000000 * 0,3
-       veredaDos = 120000000 * 0,2
-       
-       Imprima "La cantidad de dinero para la cabecera es: ", cabeceraMunicipal
-       Imprima "La cantidad de dinero para la vereda #1 es: ", veredaUno
-       Imprima "La cantidad de dinero para la vereda #2 es: ", veredaDos
-   Fin
-   ```
    
-   | cabeceraMunicipal | veredaUno  | veredaDos  |
-| :---------------: | :--------: | :--------: |
-   |    60.000.000     | 36.000.000 | 24.000.000 |
+	```
+	Inicio
+		Entero cabeceraMunicipal, veredaUno, veredaDos
+	       
+		cabeceraMunicipal = 120000000 * 0,5
+		veredaUno = 120000000 * 0,3
+		veredaDos = 120000000 * 0,2
+	       
+		Imprima "La cantidad de dinero para la cabecera es: ", cabeceraMunicipal
+		Imprima "La cantidad de dinero para la vereda #1 es: ", veredaUno
+		Imprima "La cantidad de dinero para la vereda #2 es: ", veredaDos
+	Fin
+	```
+	
+	### Prueba de escritorio:
+
+	| cabeceraMunicipal | veredaUno  | veredaDos  |
+	| :---------------: | :--------: | :--------: |
+	|    60.000.000     | 36.000.000 | 24.000.000 |
    
 9. Hacer un algoritmo que calcule el área y el perímetro de un cuadrado.
 
-   ```
-Inicio
+	```
+	Inicio
        Real lado, area, perimetro
        
        Imprima "Ingrese la medida de uno de los lados del cuadrado."
@@ -458,17 +459,19 @@ Inicio
        
        Imprima "El área del cuadrado es: ", area
        Imprima "El perímetro del cuadrado es: ", perimetro
-   Fin
-   ```
-   
-   | lado | area | perimetro |
-| :--: | :--: | :-------: |
-   |  7   |  49  |    28     |
+	Fin
+	```
+
+	### Prueba de escritorio:
+
+	| lado | area | perimetro |
+	| :--: | :--: | :-------: |
+	|  7   |  49  |    28     |
    
 10. Hacer un algoritmo que calcule e imprima el valor a pagar por una matrícula, teniendo en cuenta que hay un descuento del 25%. Imprimir el valor del descuento y el valor a pagar.
 
-    ```
-Inicio
+	```
+	Inicio
         Entero matricula, descuento, total
         
         Imprima  "Ingrese el valor de la matrícula."
@@ -480,16 +483,18 @@ Inicio
         Imprima"El valor del descuento es: ", descuento
         Imprima "El valor total a pagar es: ",, total
     Fin
-    ```
+	```
+
+	### Prueba de escritorio:	
     
     | matricula | descuento |   total   |
-| :-------: | :-------: | :-------: |
+    | :-------: | :-------: | :-------: |
     | 2.000.000 |  700.000  | 2.100.100 |
     
 11. Diseñar un algoritmo que muestre en días, horas, minutos y segundos una cantidad de tiempo que inicialmente fue capturada en segundos.
 
-    ```
-Inicio
+	```
+	Inicio
     	Real tiempoInicial, dias, horas, minutos
     	
     	Imprima "Ingrese la cantidad tiempo inicial en segundos"
@@ -504,17 +509,13 @@ Inicio
     	Imprima "El equivalente en horas es:", horas
     	Imprima "El equivalente en horas es:", minutos
     Fin
-    ```
-    
-    | tiempoInicial |    dias     |    horas    | minutos |
-| :-----------: | :---------: | :---------: | :-----: |
+	```
+
+	### Prueba de escritorio:
+	
+    | TiempoInicial | dias |   horas   | minutos |
+    | :-------: | :-------: | :-------: | :-------: |
     |      450      | 0.001388888 | 0.033333333 |    2    |
-
-# **Estructura condicional**
-
-
-
-Las estructuras condicionales comparan una variable contra otro(s) valor(es), para que en base al resultado de esta comparación, se siga un curso de acción dentro del programa. Cabe mencionar que la comparación se puede hacer contra otra variable o contra una constante, según se necesite. Existen tres tipos básicos, las simples, las dobles y las múltiples o anidadas.
 
 # **Estructura condicional simple**
 
