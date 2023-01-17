@@ -271,6 +271,7 @@ La **estructura secuencial** es aquella en la que una acción (instrucción) sig
    * El área de un triángulo.
    * El perímetro de un triángulo.
 
+
 	```
 	Inicio
 		Real base, altura, lado1, lado2, lado3, area, perimetro
