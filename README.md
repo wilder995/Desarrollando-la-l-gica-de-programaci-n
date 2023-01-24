@@ -482,7 +482,7 @@ La **estructura secuencial** es aquella en la que una acción (instrucción) sig
         total = matricula - descuento
         
         Imprima"El valor del descuento es: ", descuento
-        Imprima "El valor total a pagar es: ",, total
+        Imprima "El valor total a pagar es: ", total
     Fin
 	```
 
@@ -490,7 +490,7 @@ La **estructura secuencial** es aquella en la que una acción (instrucción) sig
     
     | matricula | descuento |   total   |
     | :-------: | :-------: | :-------: |
-    | 2.000.000 |  700.000  | 2.100.100 |
+    | 2.000.000 |  500.000  | 1.500.000 |
     
 11. Diseñar un algoritmo que muestre en días, horas, minutos y segundos una cantidad de tiempo que inicialmente fue capturada en segundos.
 
